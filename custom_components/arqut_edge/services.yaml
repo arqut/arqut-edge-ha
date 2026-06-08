@@ -1,0 +1,29 @@
+send_event:
+  name: Send Event to Arqut Edge
+  description: Publishes an event with details to the Arqut Edge Event Log.
+  fields:
+    title:
+      name: Title
+      description: The title of the event.
+      required: true
+      selector:
+        text:
+    description:
+      name: Description
+      description: Detailed description of the event.
+      required: true
+      selector:
+        text:
+    event_type:
+      name: Event Type
+      description: The type of event (e.g., notification, security, alert).
+      default: event
+      required: false
+      selector:
+        text:
+    data:
+      name: Metadata (Optional)
+      description: Key-value pairs or extra data like image URLs.
+      required: false
+      selector:
+        object:

@@ -1,0 +1,10 @@
+{
+  "domain": "arqut_edge",
+  "name": "Arqut Edge Integration",
+  "codeowners": ["@tphan267"],
+  "dependencies": [],
+  "documentation": "https://github.com/arqut/arqut-edge-ha",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/arqut/arqut-edge-ha/issues",
+  "version": "0.1.0"
+}
