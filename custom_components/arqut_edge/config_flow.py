@@ -3,8 +3,6 @@ from homeassistant import config_entries
 from homeassistant.core import callback
 import homeassistant.helpers.config_validation as cv
 
-from .const import DOMAIN  # We define DOMAIN here or hardcode it
-
 DOMAIN = "arqut_edge"
 
 class ArqutEdgeConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):

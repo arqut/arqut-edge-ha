@@ -4,6 +4,8 @@
 
 This custom integration allows **Home Assistant** to seamlessly communicate with **Arqut Edge (v0.7.0+)**. It registers a native Home Assistant Action (Service) called `arqut_edge.send_event`, allowing you to push real-time notifications and logs to your Arqut mobile app completely via the Home Assistant UI—**Zero YAML configuration required!**
 
+![Icon](images/icon.png)
+
 ## Features
 
 - **UI-Based Setup (Config Flow):** Simply input your Arqut Edge API Key directly in the Home Assistant integrations dashboard.
@@ -85,3 +87,5 @@ logger:
   logs:
     custom_components.arqut_edge: debug
 ```
+
+![Logo](images/logo.png)
